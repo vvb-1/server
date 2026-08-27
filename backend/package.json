@@ -38,7 +38,7 @@
     "@fastify/helmet": "^13.0.2",
     "@fastify/multipart": "^10.0.0",
     "@fastify/send": "^4.1.0",
-    "@fastify/static": "^9.3.0",
+    "@fastify/static": "^10.1.3",
     "@knaadh/nestjs-drizzle-mysql2": "^1.2.0",
     "@lukeed/ms": "^2.0.2",
     "@nestjs/axios": "^4.0.1",
