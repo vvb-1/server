@@ -379,6 +379,14 @@
     }
   }
 
+  .app-top-menu.app-top-menu-tool-bar {
+    :is(.btn-default, .btn-custom):is(:hover, :focus-visible):not(:disabled) {
+      border-color: semantic-dark('primary', border) !important;
+      background-color: semantic-dark('primary', bg) !important;
+      color: semantic-dark('primary', fg) !important;
+    }
+  }
+
   .app-foot-menu {
     border-top: 0.5px solid $dark-border-subtle !important;
     background-color: $sidebar-dark-icons-menu-bg;
